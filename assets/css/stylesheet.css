@@ -1,0 +1,140 @@
+html{
+    background-color: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* START MENU BEGGINING */
+.Start-menu {
+    background-color: rgb(109, 11, 11);
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+
+}
+
+.test-title {
+    margin:auto;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.Start-menu p {
+    font-size: larger;
+    text-align: center;
+    margin:auto;
+    padding: 40px 10px 10px 10px;
+    color: white;
+}
+
+.Start-menu #start-btn {
+  background-color: rgb(89, 0, 89);
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+#start-btn:hover {
+    background-color: rgb(124, 44, 124)
+}
+
+#start-btn:active {
+  transform: translateY(4px);
+}
+/* START MENU END */
+
+/* controls all quiz boxes */
+.Quiz-box {
+    background-color: rgb(0, 25, 254);
+    color:#ffffff;
+    text-align: left;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    display:none ;
+
+}
+
+.Quiz-box header {
+    height: 70px;
+    padding: 0 30px;
+    display: flex;
+
+}
+
+.ques-text {
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-bottom: solid #ffffff;
+}
+
+.answer-btn {
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+.answer-btn:hover{
+    background-color: rgb(56, 56, 56);
+}
+
+.quiz-footer {
+    border: dashed rgb(109, 108, 108);
+    text-align: right;
+}
+
+#enterHS{
+    background-color: rgb(116, 144, 169);
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+    text-align: left;;
+    border-radius: 5%;
+    display:none;
+}
+
+#hsText {
+    font-size: 50px;
+}
+
+#hsName{
+    color: #000000;
+    background-color: #e4e4e4;
+    width:50%;
+    padding-left:5px;
+}
+
+.hs-buttons {
+  background-color: rgb(141, 141, 141);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 24px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.hs-buttons:hover {
+    background-color: rgb(116, 116, 116);
+}
+
+.hs-buttons:active {
+  transform: translateY(4px);
+}

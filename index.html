@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./assets/css/stylesheet.css" rel="stylesheet">
+    <title>Code Quiz</title>
+</head>
+
+
+<body>
+
+
+    <header class="container quiz-stats">
+        <div class="row quiz-options">
+          <p class="col-md-4 text-start p-4 high-score">View High Scores</p>
+          <p class="col-md-4 offset-md-4 text-end p-4 timer">Timer<span> </span></p>
+        </div>
+    </header>
+
+    <!-- Test intro box start -->
+    <section class="Start-menu" id="start-menu">
+        <div class="test-title">
+            <span>Coding Quiz Challenge</span>
+        </div>
+        <div class="rules">
+            <p>
+              Try to answer the following code-related questions withing the time limit.
+              Keep in mind that incorrect answers will penalize your score/time by 10 seconds
+            </p>
+        </div>
+
+        <div button id="start-btn" type="button">Start Quiz</button></div>
+    </section>
+    <!-- Test intro box end -->
+
+    <!-- Quiz box start -->
+    <section id="Questions">
+        <!-- question 1 -->
+        <article class="Quiz-box" id="quiz-box">
+            <section>
+            <div class="ques-text">
+                <span>What does "HTML" stand for?</span>
+            </div>
+            </section>
+            <ul class="answer-list">
+                <li  button class="answer-btn" id="correctAns" type="button">Hypertext Markup Language</li>
+                <li  button class="answer-btn falseAns" type="button">Hypertext Makeup Langauge</li>
+                <li  button class="answer-btn falseAns" type="button">Hypertext Market Language</li>
+                <li  button class="answer-btn falseAns" type="button">Hypertext Mystic Language</li>
+            </ul>
+            <footer>
+                <div class="quiz-footer"></div>
+            </footer>
+        </article>
+
+        <!-- question 2 -->
+        <article class="Quiz-box" id="quiz-box2">
+            <section>
+            <div class="ques-text">
+                <span>What is the latest release of HTML?</span>
+            </div>
+            </section>
+            <ul class="answer-list2">
+                <li  button class="answer-btn falseAns" type="button">HTML 6.5</li>
+                <li  button class="answer-btn falseAns" type="button">HTML 5.5</li>
+                <li  button class="answer-btn correctAns" type="button">HTML 5.3</li>
+                <li  button class="answer-btn falseAns" type="button">HTML 5.1</li>
+            </ul>
+            <footer>
+                <div class="quiz-footer"></div>
+            </footer>
+        </article>
+
+        <!-- question 3 -->
+        <article class="Quiz-box" id="quiz-box3">
+            <section>
+            <div class="ques-text">
+                <span>Which of the following is NOT a HTML tag?</span>
+            </div>
+            </section>
+            <ul class="answer-list3">
+                <li  button class="answer-btn falseAns" type="button">area</li>
+                <li  button class="answer-btn correctAns" type="button">break</li>
+                <li  button class="answer-btn falseAns" type="button">footer</li>
+                <li  button class="answer-btn falseAns" type="button">header</li>
+            </ul>
+            <footer>
+                <div class="quiz-footer"></div>
+            </footer>
+        </article>
+
+        <!-- question 4 -->
+        <article class="Quiz-box" id="quiz-box4">
+            <section>
+            <div class="ques-text">
+                <span>What does "CSS" stand for?</span>
+            </div>
+            </section>
+            <ul class="answer-list4">
+                <li  button class="answer-btn falseAns" type="button">Computer Style Sheets</li>
+                <li  button class="answer-btn correctAns" type="button">Cascading Style Sheets</li>
+                <li  button class="answer-btn falseAns" type="button">Colorful Style Sheets</li>
+                <li  button class="answer-btn falseAns" type="button">Creative Style Sheets</li>
+            </ul>
+            <footer>
+                <div class="quiz-footer"></div>
+            </footer>
+        </article>
+        <!-- question 5 -->
+        <article class="Quiz-box" id="quiz-box5">
+            <section>
+            <div class="ques-text">
+                <span>Which tag makes the largest heading?</span>
+            </div>
+            </section>
+            <ul class="answer-list5">
+                <li  button class="answer-btn correctAns" type="button">h1</li>
+                <li  button class="answer-btn falseAns" type="button">h2</li>
+                <li  button class="answer-btn falseAns" type="button">h5</li>
+                <li  button class="answer-btn falseAns" type="button">h6</li>
+            </ul>
+            <footer>
+                <div class="quiz-footer"></div>
+            </footer>
+        </article>
+    </section>
+    <!-- Quiz boxes end -->
+
+    <!-- enter highscore page -->
+    <article id="enterHS">
+        <div id="highScore">
+        <h1 id="hsText">High Scores</h1>
+        <input type="text" id="hsName" placeholder="Your Name"><br><br>
+        </div>
+        <div button class="hs-buttons" id="restart-btn" type="button">Try Again</button></div>
+        <div button class="hs-buttons" id="continue-btn" type="button">Continue</button></div>  
+    </article>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+
+
+</html>
